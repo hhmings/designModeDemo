@@ -43,3 +43,4 @@ public static void main(String[] args) {
         CglibSubject cglibSubject=(CglibSubject)cglib.getInstance(subject);
         cglibSubject.addBook();
     }
+
