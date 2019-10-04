@@ -1,0 +1,104 @@
+1、Lambda表达式
+
+    (Apple a1,Apple a2)    ->     a1.getWeight().compareTo(a2.getWeight());
+
+    (----Lambda参数---)-（-箭头-）-（------------Lambda主体-----------------）
+
+    Lambda表达式有三个部分：
+
+        *参数列表
+        *箭头              -- 把参数列表与Lambda主体分隔开
+        *Lambda主体        -- 返回值
+
+
+
+    ### 基本语法：
+
+    (parameters) -> {statements;}
+
+    (1)、有 {} ，需 return 关键字；反之，不需要。
+
+
+
+    1.1、Lambda 实例
+
+        使用案例                Lambda示例
+
+        布尔表达式              (List<String> list) -> list.isEmpty()
+
+        创建对象                () -> new Apple(10)
+
+        消费一个对象            (Apple a) -> {
+                                    System.out.println(a.getWeight());
+                               }
+
+        从一个对象中选择         (String s) -> s.length()
+
+        组合两个值              (int a, int b) -> a*b
+
+        比较两个对象             (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2.getWeight());
+
+
+
+    1.2、函数式接口
+
+        只要接口只定义了一个抽象方法，它就任然是一个函数式接口。（重点是 只定义了一个抽象方法）
+
+        例如：
+        public interface Runnable{
+            void run();
+        }
+
+        例子：
+
+            Runnable r1 = () -> System.out.println("aaaa");
+
+            Runnable r2 = new Runnable(){
+
+                public void run(){
+                    System.out.println("bbbb");
+                }
+
+            };
+
+            public static void process(Runnable r){
+                r.run();
+            };
+
+            process(r1);
+
+            process(r2);
+
+            process(() -> System.out.println("aaaa"));
+
+
+
+2、java.util.function包下的函数式接口
+
+    Predicate、Consumer、Function
+
+
+    2.1、Predicate
+
+
+
+    2.2、Consumer
+
+
+    2.3、Function
+
+
+3、方法引用
+
+    Lambda                              等效的方法引用
+
+    (Apple a) -> a.getWeight()          Apple::getWeight
+
+
+
+
+
+
+
+
+
