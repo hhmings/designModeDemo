@@ -1,7 +1,7 @@
 package com.hhm.decorator;
 
 /**
- * 装饰模式
+ * 抽象构建类
  *
  * @author houhaimin
  * @version 1.0
