@@ -19,8 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="447e0626-6973-4866-8516-b7171492f3e0" name="Default Changelist" comment="">
+    <list default="true" id="447e0626-6973-4866-8516-b7171492f3e0" name="Default Changelist" comment="修改编码">
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/DiscountStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/GrouponDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/IDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/NormalDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/OrderTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/PromotionDiscountStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/AbstractOrderStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/CancelOrderStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/OrderDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/OrderStrategyContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/StrategyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/strategy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hhm/strategy/strategy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -71,6 +84,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hhm.strategy.interfacetype2" />
       <recent name="com.hhm.strategy.interfacetype" />
       <recent name="com.hhm.chainpattern.baseframe" />
       <recent name="com.hhm.observer" />
@@ -192,8 +206,23 @@
       <workItem from="1590591551482" duration="4391000" />
       <workItem from="1590623199621" duration="2159000" />
       <workItem from="1598790604415" duration="4407000" />
-      <workItem from="1598881633450" duration="541000" />
+      <workItem from="1598881633450" duration="2514000" />
     </task>
+    <task id="LOCAL-00001" summary="修改编码">
+      <created>1598882226155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598882226155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改编码">
+      <created>1598882281894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598882281894</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,11 +254,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改编码" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改编码" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1598791814684">
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1598886553370">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598791814684" />
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598886553370" />
     <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1598798399194">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -250,6 +283,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598881854166" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598882285665">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598882285665" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598886735588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598886735588" />
   </component>
   <component name="masterDetails">
     <states>
