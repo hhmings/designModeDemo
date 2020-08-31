@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="447e0626-6973-4866-8516-b7171492f3e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/builder/ResourcePoolConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +67,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -191,7 +191,8 @@
       <workItem from="1589112935744" duration="69000" />
       <workItem from="1590591551482" duration="4391000" />
       <workItem from="1590623199621" duration="2159000" />
-      <workItem from="1598790604415" duration="3737000" />
+      <workItem from="1598790604415" duration="4407000" />
+      <workItem from="1598881633450" duration="541000" />
     </task>
     <servers />
   </component>
@@ -229,6 +230,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598791814684" />
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1598798399194">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598798399194" />
+    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1598798399194">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="145" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598798399194" />
+    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1598798399193">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="145" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598798399193" />
+    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1598798399194">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="145" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598798399194" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1598881854166">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598881854166" />
   </component>
   <component name="masterDetails">
     <states>
