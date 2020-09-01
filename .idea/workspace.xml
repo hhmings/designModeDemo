@@ -19,21 +19,50 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="447e0626-6973-4866-8516-b7171492f3e0" name="Default Changelist" comment="修改编码">
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/DiscountStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/GrouponDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/IDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/NormalDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/OrderTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hhm/strategy/interfacetype2/PromotionDiscountStrategy.java" afterDir="false" />
+    <list default="true" id="447e0626-6973-4866-8516-b7171492f3e0" name="Default Changelist" comment="策略模式">
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/arraymode/v1/ArrayModeHandlerChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/arraymode/v1/HandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/arraymode/v1/HandlerD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/arraymode/v1/IHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/linkmode/v1/ChainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/linkmode/v1/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/linkmode/v1/HandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/linkmode/v1/HandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/chainpattern/linkmode/v1/HandlerChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hhm/设计模式记录文档" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/AbstractOrderStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/CancelOrderStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/OrderDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/OrderStrategyContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/StrategyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/strategy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hhm/strategy/strategy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/Chain1Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/ConcreteHandler1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/ConcreteHandler2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/ConcreteHandler3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/IRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/NumberRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/baseframe/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/chainpattern/chain" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/command/command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/decorator/desc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/proxy/proxy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/strategy/AbstractOrderStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/strategy/CancelOrderStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/strategy/OrderDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/strategy/OrderStrategyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/strategy/StrategyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModeDemo/com/hhm/strategy/strategy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/Chain1Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/ConcreteHandler1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/ConcreteHandler2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/ConcreteHandler3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/IRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/NumberRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/baseframe/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/chainpattern/chain" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/command/command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/decorator/desc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/proxy/proxy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hhm/strategy/strategy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +75,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -84,14 +113,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hhm.chainpattern.arraymode.v1" />
       <recent name="com.hhm.strategy.interfacetype2" />
       <recent name="com.hhm.strategy.interfacetype" />
       <recent name="com.hhm.chainpattern.baseframe" />
       <recent name="com.hhm.observer" />
-      <recent name="com.hhm.v2.factory.method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorClient">
+  <component name="RunManager" selected="Application.ChainApp">
     <configuration name="Chain1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhm.chainpattern.baseframe.Chain1Main" />
       <module name="designModeDemo" />
@@ -105,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhm.decorator.DecoratorClient" />
+    <configuration name="ChainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhm.chainpattern.linkmode.v1.ChainApp" />
       <module name="designModeDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhm.decorator.*" />
+          <option name="PATTERN" value="com.hhm.chainpattern.linkmode.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhm.v2.factory.method.FactoryMethodClient" />
+    <configuration name="DecoratorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhm.decorator.DecoratorClient" />
       <module name="designModeDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhm.v2.factory.method.*" />
+          <option name="PATTERN" value="com.hhm.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainApp" />
         <item itemvalue="Application.DecoratorClient" />
         <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.Chain1Main" />
         <item itemvalue="Application.ObserverMain" />
-        <item itemvalue="Application.FactoryMethodClient" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +235,8 @@
       <workItem from="1590591551482" duration="4391000" />
       <workItem from="1590623199621" duration="2159000" />
       <workItem from="1598790604415" duration="4407000" />
-      <workItem from="1598881633450" duration="2514000" />
+      <workItem from="1598881633450" duration="3852000" />
+      <workItem from="1598962187360" duration="4000000" />
     </task>
     <task id="LOCAL-00001" summary="修改编码">
       <created>1598882226155</created>
@@ -222,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598882281894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="策略模式">
+      <created>1598887145597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598887145597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,41 +293,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改编码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改编码" />
+    <MESSAGE value="策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1598886553370">
+    <state x="392" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598966977585">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598886553370" />
-    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1598798399194">
+    <state x="392" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1598966977585" />
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1598969617871">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598798399194" />
-    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1598798399194">
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598969617871" />
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1598969173645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598798399194" />
-    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1598798399193">
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598969173645" />
+    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1598969173645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598798399193" />
-    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1598798399194">
+    <state width="1237" height="145" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598969173645" />
+    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1598969173645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598798399194" />
+    <state width="1237" height="145" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598969173645" />
+    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1598969173645">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="145" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598969173645" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1598881854166">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598881854166" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598882285665">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598887147634">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598882285665" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598886735588">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598887147634" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598887122374">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598886735588" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598887122374" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598887003658">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598887003658" />
   </component>
   <component name="masterDetails">
     <states>
